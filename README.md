@@ -9,6 +9,6 @@ This is the shared repository for the COMP0066 group work for group 15.
     * **Staging area:** Intermediate area between working directory and local repository, allows you to organize changes before committing them.
 - `git commit` will move the changes in the staging area to your _local reposity_
 	* **Local repository:** Located on your computer, this is a repository where you can manage versions and make changes before you're ready to push them to the remote repository (GitHub)
-- `git push` moves the changes you've made in your current branch and repository to the same branch on the remote repository.
+- `git push repo-URL/SSH` moves the changes you've made in your current branch and repository to the same branch on the remote repository.
     * At this point, you can navigate to the GitHub repo on the web, find your branch, and open a _pull request_
         + **Pull Request:** Sends a request to the owner of the repository to look at your branch and merge it into the "main" branch
